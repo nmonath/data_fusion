@@ -1,6 +1,6 @@
-package main.java.edu.umass.cs.data_fusion.dataset_creation;
+package edu.umass.cs.data_fusion.dataset_creation;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.RecordCollection;
+import edu.umass.cs.data_fusion.data_structures.RecordCollection;
 
 import java.io.File;
 

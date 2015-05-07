@@ -1,4 +1,4 @@
-package main.java.edu.umass.cs.data_fusion.data_structures;
+package edu.umass.cs.data_fusion.data_structures;
 
 /**
  * A handy way of representing an ordered  pair of two objects. 

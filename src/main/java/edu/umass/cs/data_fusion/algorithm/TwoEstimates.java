@@ -1,18 +1,18 @@
-package main.java.edu.umass.cs.data_fusion.algorithm;
+package edu.umass.cs.data_fusion.algorithm;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.Algorithm;
-import main.java.edu.umass.cs.data_fusion.data_structures.Attribute;
-import main.java.edu.umass.cs.data_fusion.data_structures.Entity;
-import main.java.edu.umass.cs.data_fusion.data_structures.RecordCollection;
-import main.java.edu.umass.cs.data_fusion.data_structures.Record;
-import main.java.edu.umass.cs.data_fusion.data_structures.Result;
-import main.java.edu.umass.cs.data_fusion.data_structures.Source;
-import main.java.edu.umass.cs.data_fusion.util.Functions;
+import edu.umass.cs.data_fusion.data_structures.Algorithm;
+import edu.umass.cs.data_fusion.data_structures.Attribute;
+import edu.umass.cs.data_fusion.data_structures.Entity;
+import edu.umass.cs.data_fusion.data_structures.RecordCollection;
+import edu.umass.cs.data_fusion.data_structures.Record;
+import edu.umass.cs.data_fusion.data_structures.Result;
+import edu.umass.cs.data_fusion.data_structures.Source;
+import edu.umass.cs.data_fusion.util.Functions;
 
 
 

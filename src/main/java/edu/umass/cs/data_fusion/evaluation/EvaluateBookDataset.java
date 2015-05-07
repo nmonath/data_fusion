@@ -1,10 +1,10 @@
-package main.java.edu.umass.cs.data_fusion.evaluation;
+package edu.umass.cs.data_fusion.evaluation;
 
 
-import main.java.edu.umass.cs.data_fusion.data_structures.Entity;
-import main.java.edu.umass.cs.data_fusion.data_structures.Record;
-import main.java.edu.umass.cs.data_fusion.data_structures.RecordCollection;
-import main.java.edu.umass.cs.data_fusion.data_structures.author.AuthorListAttribute;
+import edu.umass.cs.data_fusion.data_structures.Entity;
+import edu.umass.cs.data_fusion.data_structures.Record;
+import edu.umass.cs.data_fusion.data_structures.RecordCollection;
+import edu.umass.cs.data_fusion.data_structures.author.AuthorListAttribute;
 
 import java.util.*;
 

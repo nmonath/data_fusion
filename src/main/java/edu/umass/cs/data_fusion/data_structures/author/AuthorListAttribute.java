@@ -1,9 +1,9 @@
-package main.java.edu.umass.cs.data_fusion.data_structures.author;
+package edu.umass.cs.data_fusion.data_structures.author;
 
 
-import main.java.edu.umass.cs.data_fusion.data_structures.Attribute;
-import main.java.edu.umass.cs.data_fusion.data_structures.AttributeDataType;
-import main.java.edu.umass.cs.data_fusion.data_structures.AttributeType;
+import edu.umass.cs.data_fusion.data_structures.Attribute;
+import edu.umass.cs.data_fusion.data_structures.AttributeDataType;
+import edu.umass.cs.data_fusion.data_structures.AttributeType;
 
 import java.util.*;
 import java.util.regex.Matcher;

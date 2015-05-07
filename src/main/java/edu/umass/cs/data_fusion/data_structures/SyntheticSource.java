@@ -1,4 +1,4 @@
-package main.java.edu.umass.cs.data_fusion.data_structures;
+package edu.umass.cs.data_fusion.data_structures;
 
 public class SyntheticSource extends Source {
 	

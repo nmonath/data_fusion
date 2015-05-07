@@ -1,13 +1,13 @@
-package main.java.edu.umass.cs.data_fusion.experiment;
+package edu.umass.cs.data_fusion.experiment;
 
 
-import main.java.edu.umass.cs.data_fusion.data_structures.Algorithm;
-import main.java.edu.umass.cs.data_fusion.data_structures.RecordCollection;
-import main.java.edu.umass.cs.data_fusion.data_structures.Result;
-import main.java.edu.umass.cs.data_fusion.evaluation.EvaluateBookDataset;
-import main.java.edu.umass.cs.data_fusion.evaluation.EvaluationMetrics;
-import main.java.edu.umass.cs.data_fusion.load.LoadTSVFile;
-import main.java.edu.umass.cs.data_fusion.util.HTMLOutput;
+import edu.umass.cs.data_fusion.data_structures.Algorithm;
+import edu.umass.cs.data_fusion.data_structures.RecordCollection;
+import edu.umass.cs.data_fusion.data_structures.Result;
+import edu.umass.cs.data_fusion.evaluation.EvaluateBookDataset;
+import edu.umass.cs.data_fusion.evaluation.EvaluationMetrics;
+import edu.umass.cs.data_fusion.load.LoadTSVFile;
+import edu.umass.cs.data_fusion.util.HTMLOutput;
 
 import java.io.File;
 import java.util.ArrayList;

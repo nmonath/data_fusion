@@ -1,6 +1,6 @@
-package main.java.edu.umass.cs.data_fusion.util.math;
+package edu.umass.cs.data_fusion.util.math;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.Attribute;
+import edu.umass.cs.data_fusion.data_structures.Attribute;
 
 public class ZeroKLoss implements AttributeLossFunction {
 

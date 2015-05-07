@@ -1,4 +1,4 @@
-package main.java.edu.umass.cs.data_fusion.data_structures.author;
+package edu.umass.cs.data_fusion.data_structures.author;
 
 // Using an idea from: http://stackoverflow.com/questions/6667243/using-enum-values-as-string-literals
 public enum AuthorNameType {

@@ -1,13 +1,13 @@
-package main.java.edu.umass.cs.data_fusion.util;
+package edu.umass.cs.data_fusion.util;
 
 
-import main.java.edu.umass.cs.data_fusion.data_structures.*;
-import main.java.edu.umass.cs.data_fusion.data_structures.author.AuthorListAttribute;
-import main.java.edu.umass.cs.data_fusion.evaluation.EvaluationMetrics;
-import main.java.edu.umass.cs.data_fusion.evaluation.EvaluationMetricsWithTolerance;
-import main.java.edu.umass.cs.data_fusion.evaluation.tolerance.ToleranceMatchFunction;
-import main.java.edu.umass.cs.data_fusion.load.LoadBooks;
-import main.java.edu.umass.cs.data_fusion.load.LoadStocks;
+import edu.umass.cs.data_fusion.data_structures.*;
+import edu.umass.cs.data_fusion.data_structures.author.AuthorListAttribute;
+import edu.umass.cs.data_fusion.evaluation.EvaluationMetrics;
+import edu.umass.cs.data_fusion.evaluation.EvaluationMetricsWithTolerance;
+import edu.umass.cs.data_fusion.evaluation.tolerance.ToleranceMatchFunction;
+import edu.umass.cs.data_fusion.load.LoadBooks;
+import edu.umass.cs.data_fusion.load.LoadStocks;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

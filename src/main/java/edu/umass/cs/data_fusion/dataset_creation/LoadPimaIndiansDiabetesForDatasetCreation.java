@@ -1,7 +1,7 @@
-package main.java.edu.umass.cs.data_fusion.dataset_creation;
+package edu.umass.cs.data_fusion.dataset_creation;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.AttributeDataType;
-import main.java.edu.umass.cs.data_fusion.data_structures.AttributeType;
+import edu.umass.cs.data_fusion.data_structures.AttributeDataType;
+import edu.umass.cs.data_fusion.data_structures.AttributeType;
 
 
 public class LoadPimaIndiansDiabetesForDatasetCreation extends LoadUCIDatasetForDatasetCreation {

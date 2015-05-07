@@ -1,4 +1,4 @@
-package main.java.edu.umass.cs.data_fusion.load;
+package edu.umass.cs.data_fusion.load;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.*;
+import edu.umass.cs.data_fusion.data_structures.*;
 
 
 public class LoadWeather extends LoadTSVFile {

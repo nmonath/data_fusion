@@ -1,14 +1,14 @@
-package main.java.edu.umass.cs.data_fusion.experiment;
+package edu.umass.cs.data_fusion.experiment;
 
 
-import main.java.edu.umass.cs.data_fusion.algorithm.ModifiedTruthFinder;
-import main.java.edu.umass.cs.data_fusion.algorithm.TruthFinder;
-import main.java.edu.umass.cs.data_fusion.data_structures.Pair;
-import main.java.edu.umass.cs.data_fusion.data_structures.RecordCollection;
-import main.java.edu.umass.cs.data_fusion.load.LoadBooks;
-import main.java.edu.umass.cs.data_fusion.load.LoadStocks;
-import main.java.edu.umass.cs.data_fusion.load.LoadTSVFile;
-import main.java.edu.umass.cs.data_fusion.load.LoadWeather;
+import edu.umass.cs.data_fusion.algorithm.ModifiedTruthFinder;
+import edu.umass.cs.data_fusion.algorithm.TruthFinder;
+import edu.umass.cs.data_fusion.data_structures.Pair;
+import edu.umass.cs.data_fusion.data_structures.RecordCollection;
+import edu.umass.cs.data_fusion.load.LoadBooks;
+import edu.umass.cs.data_fusion.load.LoadStocks;
+import edu.umass.cs.data_fusion.load.LoadTSVFile;
+import edu.umass.cs.data_fusion.load.LoadWeather;
 
 import java.io.File;
 import java.io.PrintWriter;

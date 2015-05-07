@@ -1,13 +1,13 @@
-package main.java.edu.umass.cs.data_fusion.experiment.baseline;
+package edu.umass.cs.data_fusion.experiment.baseline;
 
 
-import main.java.edu.umass.cs.data_fusion.algorithm.SpecificSource;
-import main.java.edu.umass.cs.data_fusion.data_structures.Pair;
-import main.java.edu.umass.cs.data_fusion.data_structures.RecordCollection;
-import main.java.edu.umass.cs.data_fusion.data_structures.Source;
-import main.java.edu.umass.cs.data_fusion.experiment.BookExperiment;
-import main.java.edu.umass.cs.data_fusion.experiment.Experiment;
-import main.java.edu.umass.cs.data_fusion.load.*;
+import edu.umass.cs.data_fusion.algorithm.SpecificSource;
+import edu.umass.cs.data_fusion.data_structures.Pair;
+import edu.umass.cs.data_fusion.data_structures.RecordCollection;
+import edu.umass.cs.data_fusion.data_structures.Source;
+import edu.umass.cs.data_fusion.experiment.BookExperiment;
+import edu.umass.cs.data_fusion.experiment.Experiment;
+import edu.umass.cs.data_fusion.load.*;
 
 import java.io.File;
 import java.io.PrintWriter;

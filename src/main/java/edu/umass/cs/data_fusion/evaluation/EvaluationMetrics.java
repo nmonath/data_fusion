@@ -1,8 +1,8 @@
-package main.java.edu.umass.cs.data_fusion.evaluation;
+package edu.umass.cs.data_fusion.evaluation;
 
 import java.util.*;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.*;
+import edu.umass.cs.data_fusion.data_structures.*;
 
 
 public class EvaluationMetrics {

@@ -1,9 +1,9 @@
-package main.java.edu.umass.cs.data_fusion.load;
+package edu.umass.cs.data_fusion.load;
 
 
-import main.java.edu.umass.cs.data_fusion.data_structures.AttributeDataType;
-import main.java.edu.umass.cs.data_fusion.data_structures.AttributeType;
-import main.java.edu.umass.cs.data_fusion.dataset_creation.LoadUCIDatasetForDatasetCreation;
+import edu.umass.cs.data_fusion.data_structures.AttributeDataType;
+import edu.umass.cs.data_fusion.data_structures.AttributeType;
+import edu.umass.cs.data_fusion.dataset_creation.LoadUCIDatasetForDatasetCreation;
 
 
 public class LoadCreditApproval extends LoadUCIDataset {

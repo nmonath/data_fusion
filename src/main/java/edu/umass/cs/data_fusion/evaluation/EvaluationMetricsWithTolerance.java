@@ -1,12 +1,12 @@
-package main.java.edu.umass.cs.data_fusion.evaluation;
+package edu.umass.cs.data_fusion.evaluation;
 
 
-import main.java.edu.umass.cs.data_fusion.data_structures.*;
-import main.java.edu.umass.cs.data_fusion.evaluation.tolerance.FloatAttributeRangeToleranceMatchFunction;
-import main.java.edu.umass.cs.data_fusion.evaluation.tolerance.ToleranceDefaults;
-import main.java.edu.umass.cs.data_fusion.evaluation.tolerance.ToleranceMatchFunction;
-import main.java.edu.umass.cs.data_fusion.evaluation.tolerance.ZeroToleranceMatchFunction;
-import main.java.edu.umass.cs.data_fusion.util.Functions;
+import edu.umass.cs.data_fusion.data_structures.*;
+import edu.umass.cs.data_fusion.evaluation.tolerance.FloatAttributeRangeToleranceMatchFunction;
+import edu.umass.cs.data_fusion.evaluation.tolerance.ToleranceDefaults;
+import edu.umass.cs.data_fusion.evaluation.tolerance.ToleranceMatchFunction;
+import edu.umass.cs.data_fusion.evaluation.tolerance.ZeroToleranceMatchFunction;
+import edu.umass.cs.data_fusion.util.Functions;
 
 import java.util.*;
 

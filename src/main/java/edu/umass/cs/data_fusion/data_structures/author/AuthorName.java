@@ -1,4 +1,4 @@
-package main.java.edu.umass.cs.data_fusion.data_structures.author;
+package edu.umass.cs.data_fusion.data_structures.author;
 
 
 import java.util.HashMap;

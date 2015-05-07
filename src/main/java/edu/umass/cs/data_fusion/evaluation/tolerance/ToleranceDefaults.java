@@ -1,4 +1,4 @@
-package main.java.edu.umass.cs.data_fusion.evaluation.tolerance;
+package edu.umass.cs.data_fusion.evaluation.tolerance;
 
 
 public class ToleranceDefaults {

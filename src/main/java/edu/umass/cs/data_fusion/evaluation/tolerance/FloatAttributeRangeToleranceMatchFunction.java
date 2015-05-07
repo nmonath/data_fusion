@@ -1,8 +1,8 @@
-package main.java.edu.umass.cs.data_fusion.evaluation.tolerance;
+package edu.umass.cs.data_fusion.evaluation.tolerance;
 
 
-import main.java.edu.umass.cs.data_fusion.data_structures.Attribute;
-import main.java.edu.umass.cs.data_fusion.data_structures.FloatAttribute;
+import edu.umass.cs.data_fusion.data_structures.Attribute;
+import edu.umass.cs.data_fusion.data_structures.FloatAttribute;
 
 public class FloatAttributeRangeToleranceMatchFunction implements ToleranceMatchFunction {
     

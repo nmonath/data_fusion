@@ -1,7 +1,7 @@
-package main.java.edu.umass.cs.data_fusion.load;
+package edu.umass.cs.data_fusion.load;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.AttributeDataType;
-import main.java.edu.umass.cs.data_fusion.data_structures.AttributeType;
+import edu.umass.cs.data_fusion.data_structures.AttributeDataType;
+import edu.umass.cs.data_fusion.data_structures.AttributeType;
 
 
 public class LoadAdult extends LoadUCIDataset {

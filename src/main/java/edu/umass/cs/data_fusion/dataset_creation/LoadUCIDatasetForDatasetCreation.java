@@ -1,7 +1,7 @@
-package main.java.edu.umass.cs.data_fusion.dataset_creation;
+package edu.umass.cs.data_fusion.dataset_creation;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.*;
-import main.java.edu.umass.cs.data_fusion.load.LoadTSVFile;
+import edu.umass.cs.data_fusion.data_structures.*;
+import edu.umass.cs.data_fusion.load.LoadTSVFile;
 
 import java.io.*;
 import java.util.ArrayList;

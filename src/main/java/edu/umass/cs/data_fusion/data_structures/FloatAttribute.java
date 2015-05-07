@@ -1,4 +1,4 @@
-package main.java.edu.umass.cs.data_fusion.data_structures;
+package edu.umass.cs.data_fusion.data_structures;
 
 /**
  * A Float Attribute is instantiated version of the Attribute parent class 

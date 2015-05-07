@@ -1,11 +1,11 @@
-package main.java.edu.umass.cs.data_fusion.experiment.methods;
+package edu.umass.cs.data_fusion.experiment.methods;
 
 
-import main.java.edu.umass.cs.data_fusion.algorithm.CRH;
-import main.java.edu.umass.cs.data_fusion.algorithm.ModifiedTruthFinder;
-import main.java.edu.umass.cs.data_fusion.algorithm.TruthFinder;
-import main.java.edu.umass.cs.data_fusion.experiment.Experiment;
-import main.java.edu.umass.cs.data_fusion.experiment.ExperimentSetups;
+import edu.umass.cs.data_fusion.algorithm.CRH;
+import edu.umass.cs.data_fusion.algorithm.ModifiedTruthFinder;
+import edu.umass.cs.data_fusion.algorithm.TruthFinder;
+import edu.umass.cs.data_fusion.experiment.Experiment;
+import edu.umass.cs.data_fusion.experiment.ExperimentSetups;
 
 import java.io.File;
 

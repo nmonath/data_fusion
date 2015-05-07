@@ -1,10 +1,10 @@
-package main.java.edu.umass.cs.data_fusion.algorithm;
+package edu.umass.cs.data_fusion.algorithm;
 
 import java.util.ArrayList;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.Algorithm;
-import main.java.edu.umass.cs.data_fusion.data_structures.RecordCollection;
-import main.java.edu.umass.cs.data_fusion.data_structures.Result;
+import edu.umass.cs.data_fusion.data_structures.Algorithm;
+import edu.umass.cs.data_fusion.data_structures.RecordCollection;
+import edu.umass.cs.data_fusion.data_structures.Result;
 
 public class Ensemble extends Algorithm{
 	// the list of algorithms to be ensembled.

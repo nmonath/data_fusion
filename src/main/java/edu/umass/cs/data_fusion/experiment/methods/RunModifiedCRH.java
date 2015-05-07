@@ -1,10 +1,10 @@
-package main.java.edu.umass.cs.data_fusion.experiment.methods;
+package edu.umass.cs.data_fusion.experiment.methods;
 
 
-import main.java.edu.umass.cs.data_fusion.algorithm.CRH;
-import main.java.edu.umass.cs.data_fusion.algorithm.ModifiedCRH;
-import main.java.edu.umass.cs.data_fusion.experiment.Experiment;
-import main.java.edu.umass.cs.data_fusion.experiment.ExperimentSetups;
+import edu.umass.cs.data_fusion.algorithm.CRH;
+import edu.umass.cs.data_fusion.algorithm.ModifiedCRH;
+import edu.umass.cs.data_fusion.experiment.Experiment;
+import edu.umass.cs.data_fusion.experiment.ExperimentSetups;
 
 import java.io.File;
 

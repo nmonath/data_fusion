@@ -1,4 +1,4 @@
-package main.java.edu.umass.cs.data_fusion.dataset_creation;
+package edu.umass.cs.data_fusion.dataset_creation;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,15 +7,15 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Random;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.Attribute;
-import main.java.edu.umass.cs.data_fusion.data_structures.AttributeType;
-import main.java.edu.umass.cs.data_fusion.data_structures.Entity;
-import main.java.edu.umass.cs.data_fusion.data_structures.FloatAttribute;
-import main.java.edu.umass.cs.data_fusion.data_structures.Record;
-import main.java.edu.umass.cs.data_fusion.data_structures.RecordCollection;
-import main.java.edu.umass.cs.data_fusion.data_structures.Source;
-import main.java.edu.umass.cs.data_fusion.data_structures.StringAttribute;
-import main.java.edu.umass.cs.data_fusion.data_structures.SyntheticSource;
+import edu.umass.cs.data_fusion.data_structures.Attribute;
+import edu.umass.cs.data_fusion.data_structures.AttributeType;
+import edu.umass.cs.data_fusion.data_structures.Entity;
+import edu.umass.cs.data_fusion.data_structures.FloatAttribute;
+import edu.umass.cs.data_fusion.data_structures.Record;
+import edu.umass.cs.data_fusion.data_structures.RecordCollection;
+import edu.umass.cs.data_fusion.data_structures.Source;
+import edu.umass.cs.data_fusion.data_structures.StringAttribute;
+import edu.umass.cs.data_fusion.data_structures.SyntheticSource;
 
 public class CreateSyntheticDataset {
 	//for CONTINUOUS attributes get the possible values that the attribute can take 

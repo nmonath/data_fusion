@@ -1,9 +1,9 @@
-package main.java.edu.umass.cs.data_fusion.experiment.baseline;
+package edu.umass.cs.data_fusion.experiment.baseline;
 
-import main.java.edu.umass.cs.data_fusion.algorithm.Upperbound;
-import main.java.edu.umass.cs.data_fusion.experiment.Experiment;
-import main.java.edu.umass.cs.data_fusion.experiment.ExperimentSetups;
-import main.java.edu.umass.cs.data_fusion.load.*;
+import edu.umass.cs.data_fusion.algorithm.Upperbound;
+import edu.umass.cs.data_fusion.experiment.Experiment;
+import edu.umass.cs.data_fusion.experiment.ExperimentSetups;
+import edu.umass.cs.data_fusion.load.*;
 
 import java.io.File;
 

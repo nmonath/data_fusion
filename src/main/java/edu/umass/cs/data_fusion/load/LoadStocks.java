@@ -1,7 +1,7 @@
-package main.java.edu.umass.cs.data_fusion.load;
+package edu.umass.cs.data_fusion.load;
 
-import main.java.edu.umass.cs.data_fusion.algorithm.TruthFinder;
-import main.java.edu.umass.cs.data_fusion.data_structures.*;
+import edu.umass.cs.data_fusion.algorithm.TruthFinder;
+import edu.umass.cs.data_fusion.data_structures.*;
 
 import java.io.File;
 import java.util.ArrayList;

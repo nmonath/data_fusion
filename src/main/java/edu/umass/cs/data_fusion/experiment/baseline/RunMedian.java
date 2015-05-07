@@ -1,9 +1,9 @@
-package main.java.edu.umass.cs.data_fusion.experiment.baseline;
+package edu.umass.cs.data_fusion.experiment.baseline;
 
-import main.java.edu.umass.cs.data_fusion.algorithm.BaselineMean;
-import main.java.edu.umass.cs.data_fusion.algorithm.BaselineMedian;
-import main.java.edu.umass.cs.data_fusion.experiment.Experiment;
-import main.java.edu.umass.cs.data_fusion.experiment.ExperimentSetups;
+import edu.umass.cs.data_fusion.algorithm.BaselineMean;
+import edu.umass.cs.data_fusion.algorithm.BaselineMedian;
+import edu.umass.cs.data_fusion.experiment.Experiment;
+import edu.umass.cs.data_fusion.experiment.ExperimentSetups;
 
 import java.io.File;
 

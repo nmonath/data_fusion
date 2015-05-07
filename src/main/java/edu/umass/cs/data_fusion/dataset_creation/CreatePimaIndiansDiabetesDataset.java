@@ -1,11 +1,11 @@
-package main.java.edu.umass.cs.data_fusion.dataset_creation;
+package edu.umass.cs.data_fusion.dataset_creation;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.RecordCollection;
-import main.java.edu.umass.cs.data_fusion.data_structures.Source;
-import main.java.edu.umass.cs.data_fusion.data_structures.SyntheticSource;
-import main.java.edu.umass.cs.data_fusion.load.LoadAdult;
-import main.java.edu.umass.cs.data_fusion.load.LoadCreditApproval;
-import main.java.edu.umass.cs.data_fusion.load.LoadPimaIndiansDiabetes;
+import edu.umass.cs.data_fusion.data_structures.RecordCollection;
+import edu.umass.cs.data_fusion.data_structures.Source;
+import edu.umass.cs.data_fusion.data_structures.SyntheticSource;
+import edu.umass.cs.data_fusion.load.LoadAdult;
+import edu.umass.cs.data_fusion.load.LoadCreditApproval;
+import edu.umass.cs.data_fusion.load.LoadPimaIndiansDiabetes;
 
 import java.io.File;
 import java.util.ArrayList;

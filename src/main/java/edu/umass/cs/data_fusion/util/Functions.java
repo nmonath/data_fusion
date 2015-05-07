@@ -1,4 +1,4 @@
-package main.java.edu.umass.cs.data_fusion.util;
+package edu.umass.cs.data_fusion.util;
 
 
 import java.util.*;

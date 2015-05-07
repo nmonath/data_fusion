@@ -1,12 +1,12 @@
-package main.java.edu.umass.cs.data_fusion.algorithm;
+package edu.umass.cs.data_fusion.algorithm;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import main.java.edu.umass.cs.data_fusion.data_structures.*;
-import main.java.edu.umass.cs.data_fusion.util.Functions;
+import edu.umass.cs.data_fusion.data_structures.*;
+import edu.umass.cs.data_fusion.util.Functions;
 
 
 public class ThreeEstimate extends Algorithm{

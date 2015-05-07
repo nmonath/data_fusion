@@ -1,4 +1,4 @@
-package main.java.edu.umass.cs.data_fusion.experiment;
+package edu.umass.cs.data_fusion.experiment;
 
 
 public class RunHyperparameterTuning {
