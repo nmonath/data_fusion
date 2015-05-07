@@ -14,5 +14,5 @@ __Running the Code__
 The package, ```main.java.edu.umass.cs.data_fusion.experiment.methods```, contains programs to run our experiments. Each of these classes has a main method to run the experiment. For instance, one can run the CRH experiment with:
 
 ```
-java -Xmx3G -cp target/data_fusion-0.1-SNAPSHOT.jar main.java.edu.umass.cs.data_fusion.experiment.methods.RunCRH
+java -Xmx3G -cp target/data_fusion-0.1-SNAPSHOT.jar edu.umass.cs.data_fusion.experiment.methods.RunCRH
 ```
