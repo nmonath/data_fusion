@@ -283,13 +283,12 @@ A simple approach to data fusion is to collect all of the candidate values provi
 
 For continuous attributes, a competitive baseline algorithm is selecting the mean or median of the values proposed by the sources for a given entity's attribute. This data fusion baseline does not apply to cateogircal attributes. 
 
-
 \subsection{2-Estimates}
 The {\sc 2- Estimates} algorithm was proposed by Galland et al. in \cite{galland:corro}. This algorithm is related to a probabilistic model to estimate the source trustworthiness and the confidence of an attribute value. To compute the value confidence the algorithm takes the disagreeing sources into consideration. First, the confidence of a value is computed by analyzing agreeing and disagreeing sources of that value. After that the value confidence is normalized with a \emph{normalization function}. Then the algorithm recomputes the source trustworthiness by looking at the confidence of the different values provided by that source. After normalizing the source trustworthiness this process is repeated until convergence. Listing \ref{alg:2e} shows the algorithm in pseudocode.
 
 In the following algorithm, $\mathsf{Provides}(s,\alpha)$ is an indicator function, which is 1 if a source provides the value $\alpha$ for attribute $a$ and 0 otherwise, and $\mathsf{Provides}(s,a)$ is an indicator function, which is 1 if a source provides any value for attribute $a$ and 0 otherwise. 
 
-\begin{algorithm}[H]
+\begin{algorithm}
 	\small
 \caption{2-Estimates}
 \label{alg:2e} 
@@ -957,7 +956,7 @@ Figures \ref{fig:precision} and \ref{fig:mnad} show a visual representation of t
 
 \subsection{Implementation Notes}
 
-We have implemented all of the algorithms presented in this report and all results presented are based on our implementations. Our project was implemented in Java. In implementing the CRH algorithm, we referred to the MATLAB source code provided by the authors\footnote{\url{http://www.cse.buffalo.edu/~jing/doc/CRH.zip}} to ensure our implementation was correct.  
+We have implemented all of the algorithms presented in this report and all results presented are based on our implementations. Our project was implemented in Java. In implementing the CRH algorithm, we referred to the MATLAB source code provided by the authors\footnote{\url{http://www.cse.buffalo.edu/~jing/doc/CRH.zip}} to ensure our implementation was correct.  Our code is available on GitHub\footnote{\url{https://github.com/nmonath/data\_fusion}}
 
 \subsection{Source Trustworthiness}
 
