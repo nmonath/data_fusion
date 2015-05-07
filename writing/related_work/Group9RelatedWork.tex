@@ -1,0 +1,153 @@
+% THIS IS SIGPROC-SP.TEX - VERSION 3.1
+% WORKS WITH V3.2SP OF ACM_PROC_ARTICLE-SP.CLS
+% APRIL 2009
+%
+% It is an example file showing how to use the 'acm_proc_article-sp.cls' V3.2SP
+% LaTeX2e document class file for Conference Proceedings submissions.
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V3.2SP) *DOES NOT* produce:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) Page numbering
+% ---------------------------------------------------------------------------------------------------------------
+% It is an example which *does* use the .bib file (from which the .bbl file
+% is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission,
+% you need to 'insert'  your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% Questions regarding SIGS should be sent to
+% Adrienne Griscti ---> griscti@acm.org
+%
+% Questions/suggestions regarding the guidelines, .tex and .cls files, etc. to
+% Gerald Murray ---> murray@hq.acm.org
+%
+% For tracking purposes - this is V3.1SP - APRIL 2009
+
+\documentclass{acm_proc_article-sp}
+
+\begin{document}
+
+\title{Data Fusion Using Source Trustworthiness}
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the available 'opening page real-estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+
+\numberofauthors{3} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+%
+% 1st. author
+\alignauthor
+Manual Heinkel \\
+       \affaddr{UMass Amherst}\\
+       \affaddr{140 Governors Drive}\\
+       \affaddr{Amherst, Massachusetts}\\
+       \email{heinkel@cs.umass.edu}
+% 2nd. author
+\alignauthor
+Nicholas Monath \\
+       \affaddr{UMass Amherst}\\
+       \affaddr{140 Governors Drive}\\
+       \affaddr{Amherst, Massachusetts}\\
+       \email{nmonath@cs.umass.edu}
+% 3rd. author
+\alignauthor 
+Lakshmi Nair \\
+       \affaddr{UMass Amherst}\\
+       \affaddr{140 Governors Drive}\\
+       \affaddr{Amherst, Massachusetts}\\
+       \email{lvnair@cs.umass.edu}
+}
+\date{8 March 2015}
+% Just remember to make sure that the TOTAL number of authors
+% is the number that will appear on the first page PLUS the
+% number that will appear in the \additionalauthors section.
+
+\maketitle
+
+
+% A category with the (minimum) three required fields
+%\category{H.4}{Information Systems Applications}{Miscellaneous}
+%A category including the fourth, optional field follows...
+%\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+
+%\terms{Theory}
+
+%\keywords{ACM proceedings, \LaTeX, text tagging} % NOT required for Proceedings
+
+
+
+
+\section{Related Work}
+The advent of data sources on the web in the last two decades has sparked the need for automated methods of combining sources into a single source. As these data sources often contain noisy and incorrect data, techniques for discerning the correct value among a set of conflicting values must be developed. These techniques solve the problem of data fusion. The process is also referred to as truth discovery \cite{waguih:truth} \cite{yin:truth} and data integration \cite{sarma:data} \cite{zhao:bayesian}. While there has been some work on how data fusion pertains to information extraction, specifically question answering \cite{wu:corroborating}, the significant body of literature pertains to the construction of databases, particularly relational databases and, recently, knowledge bases \cite{dong:data}. 
+
+
+
+The problem of data fusion in relational databases typically consists of multiple phases \cite{bleiholder:data} \cite{li:truth}. Given a collection of data sources, which all contain data that is to be stored in a particular relation, the first step is often the mapping of the data sources' schema to the schema of the underlying relation \cite{bleiholder:data}. Several techniques for schema mapping are discussed in \cite{naumann:data}. Several papers such as \cite{li:truth} address the process of selecting the true data values from the sources independently of schema mapping as we do in this work.
+
+
+A naive approach to this problem is to resolve the conflicts by performing a majority vote among the sources. Early approaches such as {\sc TruthFinder} \cite{yin:truth} extend this technique by incorporating a notion of source trustworthiness, i.e. how much one should trust the value presented by a source. {\sc TruthFinder} follows a heuristic which assumes that a source which provides mostly true claims for many data items is likely to provide true claims for other data items. The estimation of the trustworthiness of data sources   is a common thread among data fusion algorithms as noted by \cite{li:truth} \cite{waguih:truth}. Other truth discovery algorithms which are based on corroboration have been proposed by Galland et al. \cite{galland:corro}. Three algorithms were proposed ({\sc Cosine}, {\sc 2-Estimates} and {\sc 3-Estimates}) which estimate the truth in the values and the trust in the views. {\sc Cosine} is a heuristic approach which is based on the cosine similarity in information retrieval. The algorithm is initialized with the confidence of each value and the source trustworthiness. The algorithm then iteratively recomputes the source trustworthiness as a linear function of the previous iteration. 
+
+
+Other approaches such as Latent Truth Model proposed by Zhao et al. \cite{zhao:bayesian} use probabilistic Bayesian models. In contrast to previous methods, this model captures the distinction between false positive and false negative errors injected by the source. LTM models the probability of each fact being true as a latent random variable and the actual truth label of each fact as a latent boolean random variable. A Collapsed Gibbs Sampling algorithm is used for inferring the true labels. The algorithm works by randomly initializing the truth labels for each fact and in each iteration the truth values are sampled from a distribution conditioned on all current truth labels. 
+
+Another method proposed by Wang et al. \cite{wang2012truth} is Maximum Likelihood Estimation. Unlike most of the other methods, which are heuristic, this approach offers an optimal solution to the problem of truth discovery. The model parameters include the probability of a value being reported as true by the source and the probability that value is true given the source. The Expectation Maximization Algorithm is used to find optimal values for these parameters. During the Expectation step, the probability that value is true given source probabilities is computed and during the Maximization step, the source probabilities are computed. This method has been shown to work well in cases where there is a lot of noise in the input data. 
+
+Related algorithms such as Latent Credibility Analysis (LCA) \cite{pasternack:latent} model the truthfulness of facts presented by sources using a probabilistic graphical model. LCA represents the truth of a given fact as a latent variable in the graphical model. LCA jointly models the truth of a given fact, the trustworthiness of all of the data sources and other factors such as the variability of particular attributes. Unlike many other works, LCA can be trained not only in an unsupervised way, but also in a semi-supervised way. LCA follows up earlier work done by the same authors such as \cite{pasternack:knowing} and \cite{pasternack:making}, which uses an interesting trick of placing sources into several groups in the truth finding process. 
+
+
+Data sources may also contain noise as a result of copying values from one another. A novel contribution of \cite{dong:integrating} is a model of the dependence between sources. The {\sc AccuCopy} method presented in \cite{dong:integrating} and in the survey \cite{li:truth} models the dependence by estimating the probability a source would independently come up with its claim using a Bayesian approach. 
+
+The problem of data fusion is extended to data streams in the recent work \cite{zhao:truth}. The probabilistic approach performs fusion via source quality estimation in real time. While the approach could be used on fixed data as well, the efficiency of this approach is an important contribution. 
+
+The recent work of Li et al. \cite{li:resolving} has been shown to be state of the art on several standard datasets such as the stock dataset \cite{li:truth}, the flight dataset \cite{li:truth} and others. The work frames data fusion as a regularized optimization problem such that the loss function cleverly combines a representation of source trustworthiness and the values proposed by each source while respecting the domain of the attributes. As in LCA and other methods, the trustworthiness is calculated jointly. As one of the top performing systems, this work will be a point of comparison and extension in our project. 
+
+Recent work has focused on knowledge fusion, a closely related problem to data fusion \cite{dong:data} \cite{pochampally:fusing} \cite{yu:wisdom}.  In this task the data are knowledge base entries such as a pair of entities and a relation rather than a collection of attributes. Many data fusion techniques can be effectively applied to this problem as shown in \cite{dong:data}. Handling data sources which contain correlations is addressed by \cite{pochampally:fusing}. Correlations between sources include not only copying, but also factors such as similarities between the extraction techniques used. Modeling correlations rather than copied values is a novel contribution by  \cite{pochampally:fusing}.
+
+
+Another related research area is the collection of labels from crowdsourcing \cite{nguyen:minimizing}. Particularly, techniques for using crowdsourcing to create labeled data sets \cite{sheng:get} \cite{nguyen:minimizing} and crowdsourcing for multiple choice question answering \cite{bachrach:grade}. In these approaches the number of sources/users can be much greater than for usual data fusion problems \cite{li:truth} \cite{nguyen:minimizing}.
+
+We expect our work to differ from the previous work in that we will model source trustworthiness not only globally, i.e. for all attributes, but also locally for each attribute. In doing so, we hope to capture a more fine grained representation of source trustworthiness. We will also attempt to ensemble existing algorithms using a variety of techniques such as weighted ensemble. We hope to use semi-supervised techniques in situations where more domain-knowledge could be useful. Most of the models presented previous works such as \cite{pasternack:latent} and \cite{li:resolving} do not attempt to measure the dependence of attributes on other attributes. We hope to investigate if there is a tractable way to capture these dependencies and if we can use them to improve data fusion methods.
+
+\vspace{2cm}
+
+\bibliographystyle{abbrv}
+\bibliography{references}  
+
+\balancecolumns
+\end{document}

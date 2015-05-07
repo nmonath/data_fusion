@@ -1,0 +1,37 @@
+digraph bn2 {
+	
+graph [autosize=false, size="25.7,8.3!", resolution=100];
+	
+	cnnMoneyOpen[shape=oval; label = <CNN Money,<BR/> Open Price>];
+	yahooFinanceOpen[shape=oval; label = <Yahoo Finance,<BR/> Open Price>];
+	marketwatchOpen[shape=oval; label = <MarketWatch,<BR/> Open Price>];
+	
+	cnnMoneyClose[shape=oval; label = <CNN Money,<BR/> Close Price>];
+	yahooFinanceClose[shape=oval; label = <Yahoo Finance,<BR/> Close Price>];
+	marketwatchClose[shape=oval; label = <MarketWatch,<BR/> Close Price>];
+	
+	cnnMoneyChange[shape=oval; label = <CNN Money,<BR/> Change (%)>];
+	yahooFinanceChange[shape=oval; label = <Yahoo Finance,<BR/> Change (%)>];
+	marketwatchChange[shape=oval; label = <MarketWatch,<BR/> Change (%)>];
+	
+	aaplChange1[shape=oval; label = <AAPL <BR/> Change (%)>];
+	aaplOpen[shape=oval; label = <AAPL  <BR/> Open Price>];
+	aaplClose[shape=oval; label = <AAPL  <BR/> Close Price>];
+	
+	cnnMoneyChange->aaplChange1;
+	cnnMoneyOpen->aaplOpen;
+	cnnMoneyClose->aaplClose;
+	
+	yahooFinanceChange->aaplChange1;
+	yahooFinanceOpen->aaplOpen;
+	yahooFinanceClose->aaplClose;
+	
+	marketwatchChange->aaplChange1;
+	marketwatchOpen->aaplOpen;
+	marketwatchClose->aaplClose;
+	
+	aaplClose->aaplOpen;
+	aaplClose->aaplChange1;
+	
+
+}

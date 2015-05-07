@@ -1,0 +1,4 @@
+pdflatex Group9RelatedWork
+bibtex Group9RelatedWork
+pdflatex Group9RelatedWork
+pdflatex Group9RelatedWork

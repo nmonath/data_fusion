@@ -1,0 +1,27 @@
+digraph bn1 {
+	
+	cnnMoney[shape=oval; label = "CNN Money"];
+	yahooFinance[shape=oval; label ="Yahoo Finance"];
+	marketwatch[shape=oval; label = "MarketWatch"];
+	
+	aaplChange1[shape=oval; label = <AAPL <BR/> Change (%)>];
+	aaplOpen[shape=oval; label = <AAPL  <BR/> Open Price>];
+	aaplClose[shape=oval; label = <AAPL  <BR/> Close Price>];
+	
+	cnnMoney->aaplChange1;
+	cnnMoney->aaplOpen;
+	cnnMoney->aaplClose;
+	
+	yahooFinance->aaplChange1;
+	yahooFinance->aaplOpen;
+	yahooFinance->aaplClose;
+	
+	marketwatch->aaplChange1;
+	marketwatch->aaplOpen;
+	marketwatch->aaplClose;
+	
+	aaplClose->aaplOpen;
+	aaplClose->aaplChange1;
+	
+
+}
