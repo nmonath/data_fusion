@@ -1,5 +1,6 @@
 # data_fusion
 Final project for the Database Design and Implementation lecture.
+
 Manuel Heinkel, Nicholas Monath, Lakshmi Nair
 
 __Compilation__
