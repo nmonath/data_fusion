@@ -1,4 +1,6 @@
 # data_fusion
+Final project for the Database Design and Implementation lecture.
+
 __Compilation__
 
 To compile the code install ``maven`` and then run the command:
